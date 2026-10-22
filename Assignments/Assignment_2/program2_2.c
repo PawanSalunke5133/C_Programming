@@ -19,12 +19,13 @@ void Display(int iNo)
         iCnt++;
     }
 }
+
+int main()
 //////////////////////////////////////////////////
 //  
 //  Entry Point of the Application 
 //
 ///////////////////////////////////////////////////
-int main()
 {
     int iValue = 0;
 
