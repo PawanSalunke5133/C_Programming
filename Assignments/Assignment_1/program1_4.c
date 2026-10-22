@@ -1,5 +1,14 @@
 #include<stdio.h>
-
+///////////////////////////////////////////////////
+//
+//  Function Name   :   check
+//  Input           :   Integer 
+//  Output          :   Boolean
+//  Description     :   check if a number is divisible by 5
+//  Date            :   22/10/2026
+//  Author          :   Pawan Parmeshwar Salunke
+//
+///////////////////////////////////////////////////
 typedef int BOOL;
 #define TRUE 1
 #define False 0
@@ -15,6 +24,11 @@ int Check (int iNo)
         return False;
     }
 }
+///////////////////////////////////////////////////
+//  
+//  Entry Point of the Application 
+//
+///////////////////////////////////////////////////
 int main()
 {
     int iValue = 0;

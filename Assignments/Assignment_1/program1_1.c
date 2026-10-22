@@ -1,5 +1,16 @@
 #include<stdio.h>
-int Divided(int iNo1, int iNo2)
+///////////////////////////////////////////////////
+//
+//  Function Name   :   Divide
+//  Input           :   Integer, Integer 
+//  Output          :   Integer
+//  Description     :   perform Division of two numbers
+//  Date            :   22/10/2026
+//  Author          :   Pawan Parmeshwar Salunke
+//
+///////////////////////////////////////////////////
+
+int Divide(int iNo1, int iNo2)
 {
     int iAns = 0;
     if(iNo2 == 0)
@@ -9,6 +20,12 @@ int Divided(int iNo1, int iNo2)
     iAns = iNo1 / iNo2;
     return iAns;
 }
+///////////////////////////////////////////////////
+//  
+//  Entry Point of the Application 
+//
+///////////////////////////////////////////////////
+
 int main()
 {
     int iValue1 = 15, iValue2 = 5;
