@@ -53,4 +53,4 @@ int main()
     CalculateBonus(fSalary, iYears);
     
     return EXIT_SUCCESS;
-}
+} 
