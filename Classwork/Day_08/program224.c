@@ -1,0 +1,59 @@
+/*
+ example :
+      iRow : 4
+      iCol : 4
+
+      o/p : # * * *
+            $ # * *
+            $ $ # *
+            $ $ $ #
+
+*/
+#include<stdio.h>
+#include<stdlib.h>
+
+void pattern(int iRow, int iCol)
+{
+   int i = 0 , j =0;
+  
+   if(iRow!=iCol)
+   {
+    printf("Invalid input\n");  // ha if filter
+    return;
+   }
+    
+    for(i=1; i<=iRow; i++)   
+    {
+        
+        for(j=1; j<=iCol; j++)
+        {
+            if(i==j) // Diagonal 
+            {
+                printf("#\t");
+            }
+            else if(i>j) // lower trangle
+            {
+                printf("$\t");
+            }
+            else // upper trangle
+            {
+                printf("*\t");
+            }
+        }
+        printf("\n\n");
+    }
+}
+int main()
+{
+   int iValue1 = 0, iValue2 = 0;
+
+   printf("Enter Number of Rows :\n");
+   scanf("%d", &iValue1);
+
+   printf("Enter Number of Columns :\n");
+   scanf("%d", &iValue2);
+
+   pattern(iValue1,iValue2);
+
+    return EXIT_SUCCESS;
+}
