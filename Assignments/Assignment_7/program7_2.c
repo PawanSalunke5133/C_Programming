@@ -18,7 +18,7 @@ void Display(int iNo)
         }
     for(iCnt = 1; iCnt <=iNo; iCnt++) 
     {
-         printf("%d\t", iCnt);
+         printf("%d\t", iCnt); 
     }  
         printf("\n");
     

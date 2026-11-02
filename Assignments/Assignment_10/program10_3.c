@@ -32,7 +32,7 @@ int main()
     int iValue = 0, iRet = 0;
 
     printf("Enter Distance in km:\n");
-    scanf("%d", &iValue);
+    scanf("%d", &iValue);   
 
     iRet = KMtoMeter(iValue);
 

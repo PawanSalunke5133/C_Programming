@@ -25,7 +25,7 @@ void Display(int iNo)
             printf("Two\n");
         }
         else if(iNo==3)
-        {
+        { 
             printf("Three\n");
         }
         else if(iNo==4)

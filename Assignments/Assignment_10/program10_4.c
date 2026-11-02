@@ -30,6 +30,6 @@ int main()
     scanf("%f", &fValue);
 
     fRet = FhtoCs(fValue);
-
+  
     printf("Temperature in Celsius: %f\n", fRet);
 }

@@ -28,7 +28,7 @@ int main()
     scanf("%d", &iValue);
 
     iRet = DollarTOINR(iValue);
-
+   
     printf("INR Value %d\n", iRet);
 
     return 0;

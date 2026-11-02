@@ -23,7 +23,7 @@ void Number(int iNo)
         }
         else if(iNo>100)
         {
-            printf("Large\n");
+            printf("Large\n"); 
         }
     
 }

@@ -22,7 +22,7 @@ void MultipleDisplay(int iNo)
     }
        printf("\n");
     
-}
+} 
 /////////////////////////////////////////////////
 //  
 //  Entry Point of the Application 
