@@ -19,7 +19,7 @@ double RectArea(float fWidth, float fHeight)
     }
     if(fHeight<0)
     {
-        fHeight = -fHeight;
+       fHeight = -fHeight;
     }
 
     dArea = fWidth * fHeight;
